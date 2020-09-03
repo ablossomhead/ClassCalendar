@@ -1,0 +1,158 @@
+[
+    {
+        "period": "1",
+        "subject": "Geometry Honors",
+        "teacher": "Brooks Tomlin",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Monday",
+                "time": "7:20am-8:58am"
+            },
+            {
+                "day": "Wednesday",
+                "time": "7:20am-8:01am"
+            },
+            {
+                "day": "Thursday",
+                "time": "7:20am-8:58am"
+            }
+        ]
+    },
+    {
+        "period": "2",
+        "subject": "AP Human Geography",
+        "teacher": "Brittany Stone",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Tuesday",
+                "time": "7:20am-8:58am"
+            },
+            {
+                "day": "Wednesday",
+                "time": "8:09am-8:50am"
+            },
+            {
+                "day": "Friday",
+                "time": "7:20am-8:58am"
+            }
+        ]
+    },
+    {
+        "period": "PAWS",
+        "subject": "PAWS",
+        "teacher": "",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Wednesday",
+                "time": "8:58am-9:29am"
+            }
+        ]
+    },
+    {
+        "period": "3",
+        "subject": "English Honors 1",
+        "teacher": "Alicia Ezekiel-Pipkin",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Monday",
+                "time": "9:06am-10:52am"
+            },
+            {
+                "day": "Wednesday",
+                "time": "9:37am-10:18am"
+            },
+            {
+                "day": "Thursday",
+                "time": "9:06am-10:52am"
+            }
+        ]
+    },
+    {
+        "period": "4",
+        "subject": "Journalism 1",
+        "teacher": "Danielle Pomeranz",
+        "classlink": "https://ablossomhead.github.io/catsReact/",
+        "classtimes": [
+            {
+                "day": "Tuesday",
+                "time": "9:06am-10:52am"
+            },
+            {
+                "day": "Wednesday",
+                "time": "10:26am-11:07am"
+            },
+            {
+                "day": "Friday",
+                "time": "9:06am-10:52am"
+            }
+        ]
+    },
+    {
+        "period": "7",
+        "subject": "3D Studio Art 1",
+        "teacher": "Theresa Vallone",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Monday",
+                "time": "11:00am-11:59am"
+            },
+            {
+                "day": "Tuesday",
+                "time": "11:00am-11:59am"
+            },
+            {
+                "day": "Thursday",
+                "time": "11:00am-11:59am"
+            },
+            {
+                "day": "Friday",
+                "time": "11:00am-11:59am"
+            }
+        ]
+    },
+    {
+        "period": "5",
+        "subject": "Personal Fitness",
+        "teacher": "Nashali Melendez",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Monday",
+                "time": "12:42pm-2:20pm"
+            },
+            {
+                "day": "Wednesday",
+                "time": "11:50am-12:31pm"
+            },
+            {
+                "day": "Thursday",
+                "time": "12:42pm-2:20pm"
+            }
+        ]
+    },
+    {
+        "period": "6",
+        "subject": "Biology Honors 1",
+        "teacher": "Abraham Krige",
+        "classlink": "url",
+        "classtimes": [
+            {
+                "day": "Tuesday",
+                "time": "12:42pm-2:20pm"
+            },
+            {
+                "day": "Wednesday",
+                "time": "12:39pm-1:20pm"
+            },
+            {
+                "day": "Friday",
+                "time": "12:42pm-2:20pm"
+            }
+        ]
+    }
+]
