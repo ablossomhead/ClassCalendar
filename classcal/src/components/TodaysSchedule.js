@@ -1,7 +1,8 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 import schedule from './schedule.json';
-
+import './TodaysSchedule.css'
+import { Container } from 'react-bootstrap';
 
 
 const thisDay = () => {
@@ -23,14 +24,14 @@ const todays = schedule.filter(s => {
     return s.classtimes.find(t => t.day === thisDay())
 });
 
-const rows = todays.map( ({ period, subject, classlink, classtimes }) => {
+const rows = todays.map( ({ period, subject, teacher, classlink, classtimes }) => {
     const todaystime = classtimes.find(t => t.day === thisDay());
     return (
         <tr key={period}>
         <td>{period}</td>
         <td>{subject} 
-            <div>
-            <a href={classlink}><div>{classlink}</div></a>
+            <div className='tname'>
+                {teacher}
             </div>
         </td>
         <td>
@@ -38,9 +39,9 @@ const rows = todays.map( ({ period, subject, classlink, classtimes }) => {
                 {todaystime.day}
             </div>
         </td>
-        <td>
+        <td>{todaystime.time}
             <div>
-                {todaystime.time}
+                <a href={classlink}><div>{classlink}</div></a>
             </div>
         </td>
         </tr>
@@ -49,22 +50,24 @@ const rows = todays.map( ({ period, subject, classlink, classtimes }) => {
 
 const TodaysSchedule = () =>  {
     return (
-                    <Table striped bordered hover variant="dark">
+        <Container>
+            <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
-                        <th colSpan="4">This is today's schedule</th>
+                        <th colSpan="4">Today's Schedule</th>
                     </tr>
                     <tr>
                     <th>Period</th>
-                    <th>Subject</th>
+                    <th>Subject & Teacher</th>
                     <th>Day</th>
-                    <th>Time</th>
+                    <th>Time & Class Link</th>
                     </tr>
                 </thead>
                 <tbody>
                     {rows}
                 </tbody>
-                </Table>
+            </Table>
+        </Container>
     )
 }
 

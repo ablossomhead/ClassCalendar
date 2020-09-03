@@ -13,12 +13,13 @@ const TodayIs = () => {
     weekday[5] = "Friday";
     weekday[6] = "Saturday";    
     const n = weekday[d.getDay()];
+    const hm = d.toLocaleTimeString().toLowerCase();
     return (
         <div>
-            <Table striped bordered hover variant="dark">
-                <thead>
+            <Table >
+                <thead className='theadcss'>
                     <tr>
-                    <th>Today is {n}</th>
+                    <th>Hi! It is {hm} on {n}</th>
                     </tr>
                 </thead>
             </Table>

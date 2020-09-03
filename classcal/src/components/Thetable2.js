@@ -1,6 +1,7 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 import schedule from './schedule.json';
+import { Container } from 'react-bootstrap';
 
 
 const rows = schedule.map( ({ period, subject, teacher, classlink }) => {
@@ -16,8 +17,12 @@ const rows = schedule.map( ({ period, subject, teacher, classlink }) => {
 
 const Thetable2 = () =>  {
     return (
-                    <Table striped bordered hover variant="dark">
+        <Container>
+                    <Table striped bordered hover>
                 <thead>
+                    <tr>
+                        <th colSpan="4">Full Class Lineup</th>
+                    </tr>
                     <tr>
                     <th>Period</th>
                     <th>Subject</th>
@@ -29,6 +34,7 @@ const Thetable2 = () =>  {
                     {rows}
                 </tbody>
                 </Table>
+        </Container>
     )
 }
 

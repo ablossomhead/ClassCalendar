@@ -25,7 +25,7 @@ const FullSchedule = () =>  {
                     <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
-                        <th colSpan="4">This is your full schedule</th>
+                        <th colSpan="4">Full Schedule</th>
                     </tr>
                     <tr>
                     <th>Period</th>
