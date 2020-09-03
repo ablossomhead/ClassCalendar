@@ -1,5 +1,6 @@
 {
   "name": "classcal",
+  "homepage": "https://ablossomhead.github.io/ClassCalendar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
